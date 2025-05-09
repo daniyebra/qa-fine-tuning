@@ -5,7 +5,7 @@ This project implements an abstractive question answering system using the Qwen3
 
 ## Key Features
 - **Efficient Fine-tuning**: Utilizes QLoRA with 4-bit quantization for memory-efficient model adaptation
-- **Optimized Performance**: Achieves a 0.784 combined score (SAS × EM) on the validation set
+- **Optimized Performance**: Achieves a 0.799 combined score (SAS × EM) on the validation set
 - **Semantic Evaluation**: Implements both semantic similarity (SAS) and exact match metrics
 - **Memory Efficient**: Uses Unsloth for optimized training, making it suitable for consumer GPUs
 
@@ -34,9 +34,9 @@ This project implements an abstractive question answering system using the Qwen3
 - Sampling Strategy: Nucleus sampling
 
 ## Performance Metrics
-- Semantic Answer Similarity (SAS): 0.962
-- Exact Match (EM): 0.815
-- Combined Score (SAS × EM): 0.784
+- Semantic Answer Similarity (SAS): 0.9686
+- Exact Match (EM): 0.8250
+- Combined Score (SAS × EM): 0.7991
 
 ## Requirements
 Key dependencies include:
