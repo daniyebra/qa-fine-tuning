@@ -1,0 +1,28 @@
+# Main framework for Unsloth
+unsloth[colab-new]@git+https://github.com/unslothai/unsloth.git
+
+# Evaluation library (ensure this exact version if specific features are needed)
+simple-llms-eval@git+https://github.com/lenguajenatural-ai/simple-llms-eval.git
+
+# Core ML and NLP libraries
+torch
+transformers
+datasets
+peft
+trl
+accelerate
+bitsandbytes
+numpy
+
+# Utility
+pandas
+
+# For sentencepiece with specific models if not covered by transformers
+sentencepiece
+protobuf
+
+# Dependencies/enhancers for Unsloth (matching Colab setup for performance)
+xformers
+triton
+cut_cross_entropy
+unsloth_zoo
